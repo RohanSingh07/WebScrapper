@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="https://media-exp1.licdn.com/dms/image/C510BAQFO1hAAXUH7qw/company-logo_200_200/0/1575358701761?e=2159024400&v=beta&t=dzLXf90EKpR9SGErs7SJ5DWJFz4IHzLOdS2NLB56T08" type="image/icon type">
+
+    <title>ATG</title>
+  </head>
+  <body>
+    {% block content %}
+    <div class="container bg-light ">
+        <div class="row d-flex justify-content-center mt-4">
+            <img style="height:50px;" src="https://media-exp1.licdn.com/dms/image/C510BAQFO1hAAXUH7qw/company-logo_200_200/0/1575358701761?e=2159024400&v=beta&t=dzLXf90EKpR9SGErs7SJ5DWJFz4IHzLOdS2NLB56T08">
+            <h3 class="ml-2" style="text-decoration:underline;text-decoration-style: double;">Across The Globe</h3>
+        </div>
+        <a class="btn btn-primary w-100 mt-5" href="{% url 'frequency' %}">
+            <div class="row d-flex justify-content-center ">
+                <span class="text-white">Start Searching</span>
+            </div>
+        </a>
+    </div>
+    {% endblock %}
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
