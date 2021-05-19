@@ -48,7 +48,7 @@ def Result(request):
                 countlist.append(
                     {'word':words,'count':word_list.count(words)}
                 )
-        # Sort the result is ascending order
+        # Sort the result is descending order
         sorted_words = sorted(countlist, key=lambda k: k['count'],reverse=True)
         # Save the top 10 words with url
         Url = models.Urlword(
